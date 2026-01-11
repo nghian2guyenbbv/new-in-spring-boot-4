@@ -10,6 +10,27 @@ public class Payment2 implements Serializable {
     this.user = user;
     this.address = address;
   }
+
+  public Double getAmt() {
+    return amt;
+  }
+
+  public String getCurrency() {
+    return currency;
+  }
+
+  public String getMethod() {
+    return method;
+  }
+
+  public String getUser() {
+    return user;
+  }
+
+  public String getAddress() {
+    return address;
+  }
+
   private Double amt;
   private String currency;
   private String method;
